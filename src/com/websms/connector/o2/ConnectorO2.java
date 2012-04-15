@@ -112,38 +112,38 @@ public class ConnectorO2 extends Connector {
 
 	static {
 		MAP.put("\r", "");
-		// MAP.put("´", "'");
+		// MAP.put("Â´", "'");
 
 		// turkish
-		MAP.put("\u00F7", "%"); // ÷
-		MAP.put("\u0130", "I"); // İ
-		MAP.put("\u0131", "i"); // ı
-		MAP.put("\u015E", "S"); // Ş
-		MAP.put("\u015F", "s"); // ş
-		MAP.put("\u00C7", "C"); // Ç
-		MAP.put("\u00E7", "c"); // ç
-		MAP.put("\u011E", "G"); // Ğ
-		MAP.put("\u011F", "g"); // ğ
+		MAP.put("\u00F7", "%"); // Ã·
+		MAP.put("\u0130", "I"); // Ä°
+		MAP.put("\u0131", "i"); // Ä±
+		MAP.put("\u015E", "S"); // Åž
+		MAP.put("\u015F", "s"); // ÅŸ
+		MAP.put("\u00C7", "C"); // Ã‡
+		MAP.put("\u00E7", "c"); // Ã§
+		MAP.put("\u011E", "G"); // Äž
+		MAP.put("\u011F", "g"); // ÄŸ
 
 		// polish
-		MAP.put("\u0104", "A"); // Ą
-		MAP.put("\u0105", "a"); // ą
-		MAP.put("\u0106", "C"); // Ć
-		MAP.put("\u0107", "c"); // ć
-		MAP.put("\u0118", "E"); // Ę
-		MAP.put("\u0119", "e"); // ę
-		MAP.put("\u0141", "L"); // Ł
-		MAP.put("\u0142", "l"); // ł
-		MAP.put("\u0143", "N"); // Ń
-		MAP.put("\u0144", "n"); // ń
-		MAP.put("\u00D3", "O"); // Ó
-		MAP.put("\u015A", "S"); // Ś
-		MAP.put("\u015B", "s"); // ś
-		MAP.put("\u0179", "Z"); // Ź
-		MAP.put("\u017A", "z"); // ź
-		MAP.put("\u017B", "Z"); // Ż
-		MAP.put("\u017C", "z"); // ż
-		MAP.put("\u00F3", "o"); // ó
+		MAP.put("\u0104", "A"); // Ä„
+		MAP.put("\u0105", "a"); // Ä…
+		MAP.put("\u0106", "C"); // Ä†
+		MAP.put("\u0107", "c"); // Ä‡
+		MAP.put("\u0118", "E"); // Ä˜
+		MAP.put("\u0119", "e"); // Ä™
+		MAP.put("\u0141", "L"); // Å�
+		MAP.put("\u0142", "l"); // Å‚
+		MAP.put("\u0143", "N"); // Åƒ
+		MAP.put("\u0144", "n"); // Å„
+		MAP.put("\u00D3", "O"); // Ã“
+		MAP.put("\u015A", "S"); // Åš
+		MAP.put("\u015B", "s"); // Å›
+		MAP.put("\u0179", "Z"); // Å¹
+		MAP.put("\u017A", "z"); // Åº
+		MAP.put("\u017B", "Z"); // Å»
+		MAP.put("\u017C", "z"); // Å¼
+		MAP.put("\u00F3", "o"); // Ã³
 	}
 
 	/** GMX's {@link CharacterTable}. */
